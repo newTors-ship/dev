@@ -1,0 +1,32 @@
+
+icon.data-v-30a75892 {
+  margin-right: 13px;
+}
+.page__bd.data-v-30a75892 {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+}
+.icon-box.data-v-30a75892 {
+  margin-bottom: 25px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.icon-box__ctn.data-v-30a75892 {
+  -ms-flex-negative: 100;
+      flex-shrink: 100;
+}
+.icon-box__title.data-v-30a75892 {
+  font-size: 20px;
+}
+.icon-box__desc.data-v-30a75892 {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #888888;
+}
+.icon_sp_area.data-v-30a75892 {
+  margin-top: 10px;
+  text-align: left;
+}

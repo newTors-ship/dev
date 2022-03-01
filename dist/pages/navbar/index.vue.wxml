@@ -1,0 +1,20 @@
+<template name="7a58fc4c">
+  <view class="_div data-v-f7bd5824 page">
+    <view class="_div data-v-f7bd5824 page__bd">
+      <view class="_div data-v-f7bd5824 weui-tab">
+        <view class="_div data-v-f7bd5824 weui-navbar">
+          <block wx:key="index" key="{{index}}" wx:for="{{tabs}}" wx:for-index="index" wx:for-item="item">
+            <view id="{{index}}" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" class="_div data-v-f7bd5824 {{['weui-navbar__item', activeIndex === index ? 'weui-bar__item_on' : '']}}">
+              <view class="_div data-v-f7bd5824 weui-navbar__title">{{item}}</view>
+            </view>
+          </block>
+        </view>
+        <view class="_div data-v-f7bd5824 weui-tab__panel">
+          <view class="_div data-v-f7bd5824 weui-tab__content" hidden="{{activeIndex != 0}}">选项一的内容</view>
+          <view class="_div data-v-f7bd5824 weui-tab__content" hidden="{{activeIndex != 1}}">选项二的内容</view>
+          <view class="_div data-v-f7bd5824 weui-tab__content" hidden="{{activeIndex != 2}}">选项三的内容</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

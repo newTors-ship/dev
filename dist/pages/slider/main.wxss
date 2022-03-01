@@ -1,0 +1,9 @@
+
+.issues-content {
+  margin-top: 50px;
+}
+.slider-value-text {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #888;
+}

@@ -1,0 +1,57 @@
+<template name="476d07b8">
+  <view class="_div data-v-55dfd40c page">
+    <view class="_div data-v-55dfd40c page__hd">
+      <view class="_div data-v-55dfd40c page__title">Uploader</view>
+      <view class="_div data-v-55dfd40c page__desc">上传组件</view>
+    </view>
+    <view class="_div data-v-55dfd40c page__bd">
+      <view class="_div data-v-55dfd40c weui-cells">
+        <view class="_div data-v-55dfd40c weui-cell">
+          <view class="_div data-v-55dfd40c weui-cell__bd">
+            <view class="_div data-v-55dfd40c weui-uploader">
+              <view class="_div data-v-55dfd40c weui-uploader__hd">
+                <view class="_div data-v-55dfd40c weui-uploader__title">图片上传</view>
+                <view class="_div data-v-55dfd40c weui-uploader__info">{{files.length}}/2</view>
+              </view>
+              <view class="_div data-v-55dfd40c weui-uploader__bd">
+                <view class="_div data-v-55dfd40c weui-uploader__files" id="uploaderFiles">
+                  <view wx:key="index" key="{{index}}" wx:for="{{files}}" wx:for-index="index" wx:for-item="item" class="_div data-v-55dfd40c">
+                    <view class="_div data-v-55dfd40c weui-uploader__file">
+                      <image class="_image data-v-55dfd40c weui-uploader__img" src="{{item}}" mode="aspectFill" bindtap="handleProxy" id="{{item}}" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}"></image>
+                      <view class="_div data-v-55dfd40c delete-icon" bindtap="handleProxy" id="{{item}}" data-eventid="{{'1_'+index}}" data-comkey="{{$k}}"></view>
+                    </view>
+                  </view>
+                  <view class="_div data-v-55dfd40c weui-uploader__file">
+                    <image class="_image data-v-55dfd40c weui-uploader__img" src="/static/images/pic_160.png" mode="aspectFill"></image>
+                  </view>
+                  <view class="_div data-v-55dfd40c weui-uploader__file">
+                    <image class="_image data-v-55dfd40c weui-uploader__img" src="/static/images/pic_160.png" mode="aspectFill"></image>
+                  </view>
+                  <view class="_div data-v-55dfd40c weui-uploader__file weui-uploader__file_status">
+                    <image class="_image data-v-55dfd40c weui-uploader__img" src="/static/images/pic_160.png" mode="aspectFill"></image>
+                    <view class="_view data-v-55dfd40c weui-uploader__file-content">
+                      <view class="_view data-v-55dfd40c weui-loading"></view>
+                    </view>
+                  </view>
+                  <view class="_div data-v-55dfd40c weui-uploader__file weui-uploader__file_status">
+                    <image class="_image data-v-55dfd40c weui-uploader__img" src="/static/images/pic_160.png" mode="aspectFill"></image>
+                    <view class="_div data-v-55dfd40c weui-uploader__file-content">
+                      <icon type="warn" size="23" color="#F43530" class="_icon data-v-55dfd40c"></icon>
+                    </view>
+                  </view>
+                  <view class="_div data-v-55dfd40c weui-uploader__file weui-uploader__file_status">
+                    <image class="_image data-v-55dfd40c weui-uploader__img" src="/static/images/pic_160.png" mode="aspectFill"></image>
+                    <view class="_div data-v-55dfd40c weui-uploader__file-content">50%</view>
+                  </view>
+                </view>
+                <view class="_div data-v-55dfd40c weui-uploader__input-box">
+                  <view class="_div data-v-55dfd40c weui-uploader__input" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}"></view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

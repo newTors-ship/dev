@@ -1,0 +1,11 @@
+<template name="212a9d13">
+  <view class="_div data-v-c530a90e page">
+    <view class="_div data-v-c530a90e page__hd">
+      <view class="_div data-v-c530a90e page__title">Msg</view>
+      <view class="_div data-v-c530a90e page__desc">提示页</view>
+    </view>
+    <view class="_div data-v-c530a90e page__bd">
+      <view class="_div data-v-c530a90e weui-btn-area"><button class="_button data-v-c530a90e weui-btn" type="default" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">成功提示页</button> <button class="_button data-v-c530a90e weui-btn" type="default" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">失败提示页</button> <button class="_button data-v-c530a90e weui-btn" type="default" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">无图标提示页</button> <button class="_button data-v-c530a90e weui-btn" type="default" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">无图标提示页</button></view>
+    </view>
+  </view>
+</template>

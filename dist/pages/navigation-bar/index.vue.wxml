@@ -1,0 +1,26 @@
+<template name="9fa173b8">
+  <view class="_div data-v-299fa138 page">
+    <view class="_div data-v-299fa138 page__hd">
+      <view class="_div data-v-299fa138 page__title">Navigation Bar</view>
+      <view class="_div data-v-299fa138 page__desc">导航栏，模拟小程序原生顶部导航栏。</view>
+    </view>
+    <view class="_div data-v-299fa138 page__bd">
+      <view class="_div data-v-299fa138 weui-navigation-bar">
+        <view class="_div data-v-299fa138 weui-navigation-bar__placeholder" style="visible: hidden;"></view>
+        <view class="_div data-v-299fa138 weui-navigation-bar__inner">
+          <view class="_div data-v-299fa138 weui-navigation-bar__left">
+            <view class="_div data-v-299fa138 weui-navigation-bar__buttons">
+              <view bindtap="handleProxy" class="_div data-v-299fa138 weui-navigation-bar__button weui-navigation-bar__btn_goback" data-eventid="{{'0'}}" data-comkey="{{$k}}"></view>
+            </view>
+          </view>
+          <view class="_div data-v-299fa138 weui-navigation-bar__center">
+            <view class="_div data-v-299fa138 weui-navigation-bar__loading">
+              <view class="_div data-v-299fa138 weui-loading"></view>
+            </view> <text class="_text data-v-299fa138">标题</text>
+          </view>
+          <view class="_div data-v-299fa138 weui-navigation-bar__right"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

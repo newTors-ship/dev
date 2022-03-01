@@ -1,0 +1,59 @@
+<template name="090394fa">
+  <view class="_div data-v-422d7d57 page">
+    <view class="_div data-v-422d7d57 page__hd">
+      <view class="_div data-v-422d7d57 page__title">Flex</view>
+      <view class="_div data-v-422d7d57 page__desc">Flex布局</view>
+    </view>
+    <view class="_div data-v-422d7d57 page__bd page__bd_spacing">
+      <view class="_div data-v-422d7d57 weui-flex">
+        <view class="_div data-v-422d7d57 weui-flex__item">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+      </view>
+      <view class="_div data-v-422d7d57 weui-flex">
+        <view class="_div data-v-422d7d57 weui-flex__item">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+        <view class="_div data-v-422d7d57 weui-flex__item">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+      </view>
+      <view class="_div data-v-422d7d57 weui-flex">
+        <view class="_div data-v-422d7d57 weui-flex__item">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+        <view class="_div data-v-422d7d57 weui-flex__item">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+        <view class="_div data-v-422d7d57 weui-flex__item">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+      </view>
+      <view class="_div data-v-422d7d57 weui-flex">
+        <view class="_div data-v-422d7d57 weui-flex__item">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+        <view class="_div data-v-422d7d57 weui-flex__item">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+        <view class="_div data-v-422d7d57 weui-flex__item">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+        <view class="_div data-v-422d7d57 weui-flex__item">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+      </view>
+      <view class="_div data-v-422d7d57 weui-flex">
+        <view class="_div data-v-422d7d57">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+        <view class="_div data-v-422d7d57 weui-flex__item">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+        <view class="_div data-v-422d7d57">
+          <view class="_div data-v-422d7d57 placeholder">weui</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

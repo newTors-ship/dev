@@ -1,0 +1,11 @@
+<template name="4ec08a7c">
+  <view class="_div data-v-100e5c90 page">
+    <view class="_div data-v-100e5c90 page__hd">
+      <view class="_div data-v-100e5c90 page__title">Button</view>
+      <view class="_div data-v-100e5c90 page__desc">按钮，WeUI采用小程序原生的按钮为主体，加入一些间距的样式。</view>
+    </view>
+    <view class="_div data-v-100e5c90 page__bd page__bd_spacing"><button class="_button data-v-100e5c90 weui-btn" type="primary">页面主操作</button> <button class="_button data-v-100e5c90 weui-btn" type="primary" disabled="true">页面主操作</button> <button class="_button data-v-100e5c90 weui-btn" type="default">页面次要操作</button> <button class="_button data-v-100e5c90 weui-btn" type="default" disabled="true">页面次要操作</button> <button class="_button data-v-100e5c90 weui-btn" type="warn">警告类操作</button> <button class="_button data-v-100e5c90 weui-btn" type="warn" disabled="true">警告类操作</button>
+      <view class="_div data-v-100e5c90 button-sp-area"><button class="_button data-v-100e5c90 weui-btn mini-btn" type="primary" size="mini">按钮</button> <button class="_button data-v-100e5c90 weui-btn mini-btn" type="default" size="mini">按钮</button> <button class="_button data-v-100e5c90 weui-btn mini-btn" type="warn" size="mini">按钮</button></view>
+    </view>
+  </view>
+</template>

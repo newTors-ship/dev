@@ -1,0 +1,49 @@
+
+.weui-flex.data-v-48c6684a {
+  -ms-flex-align: center;
+      align-items: center;
+}
+.weui-cells.data-v-48c6684a {
+  margin-top: 0;
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: 0.3s;
+}
+.weui-cells.data-v-48c6684a:after,
+.weui-cells.data-v-48c6684a:before {
+  display: none;
+}
+.weui-cells_show.data-v-48c6684a {
+  opacity: 1;
+  transform: translateY(0);
+}
+.weui-cell.data-v-48c6684a:before {
+  right: 15px;
+}
+.kind-list__item.data-v-48c6684a {
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.kind-list__item.data-v-48c6684a:first-child {
+  margin-top: 0;
+}
+.kind-list__img.data-v-48c6684a {
+  width: 30px;
+  height: 30px;
+}
+.kind-list__item-hd.data-v-48c6684a {
+  padding: 20px;
+  transition: opacity 0.3s;
+}
+.kind-list__item-hd_show.data-v-48c6684a {
+  opacity: 0.4;
+}
+.kind-list__item-bd.data-v-48c6684a {
+  height: 0;
+  overflow: hidden;
+}
+.kind-list__item-bd_show.data-v-48c6684a {
+  height: auto;
+}

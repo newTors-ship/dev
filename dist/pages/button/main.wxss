@@ -1,0 +1,9 @@
+
+.button-sp-area.data-v-100e5c90{
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align:center;
+}
+.mini-btn.data-v-100e5c90{
+    margin: 0 4px;
+}

@@ -1,0 +1,19 @@
+<template name="8e9c64ac">
+  <view class="_div data-v-013dd504 page">
+    <view class="_div data-v-013dd504 page__hd">
+      <view class="_div data-v-013dd504 page__title">Rate</view>
+      <view class="_div data-v-013dd504 page__desc">星级评分</view>
+    </view>
+    <view class="_div data-v-013dd504 page__bd">
+      <view class="_div data-v-013dd504 weui-cells__title">点击评分</view>
+      <view class="_div data-v-013dd504 weui-cells__title">{{rateScore}}</view>
+      <view class="_div data-v-013dd504 weui-rate-wrap">
+        <view class="_ul data-v-013dd504 weui-rate">
+          <view class="_li data-v-013dd504 weui-rate-item {{[index <= tempValue ? 'weui-rate-item-active' : '']}}" wx:key="index" key="{{index}}" data-index="{{index}}" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{max}}" wx:for-index="index" wx:for-item="n">
+            <view class="_div data-v-013dd504 weui-rate-item-def"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,19 @@
+<template name="470231e4">
+  <view class="_div data-v-ff943e18 page">
+    <view class="_div data-v-ff943e18 page__hd">
+      <view class="_div data-v-ff943e18 page__title">Loading</view>
+      <view class="_div data-v-ff943e18 page__desc">加载中</view>
+    </view>
+    <view class="_div data-v-ff943e18 page__bd">
+      <view class="_div data-v-ff943e18 weui-loading__wrp">
+        <view class="_div data-v-ff943e18 weui-loading"></view>
+      </view>
+      <view class="_div data-v-ff943e18 weui-loading__wrp">
+        <view class="_div data-v-ff943e18 loading wx_dot_loading"></view>
+      </view>
+      <view class="_div data-v-ff943e18 weui-loading__wrp">
+        <view class="_div data-v-ff943e18 loading wx_dot_loading wx_dot_loading_white"></view>
+      </view>
+    </view>
+  </view>
+</template>

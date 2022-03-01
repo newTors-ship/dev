@@ -1,0 +1,25 @@
+<template name="66eaf4a8">
+  <view class="_div data-v-2838c6bc page">
+    <view class="_div data-v-2838c6bc page__hd">
+      <view class="_div data-v-2838c6bc page__title">Tabbar</view>
+      <view class="_div data-v-2838c6bc page__desc">底部导航，建议采用小程序原生的tabbar，通过设置page/main.js（即对应小程序中app.json）来实现。详情请看小程序文档。</view>
+    </view>
+    <view class="_div data-v-2838c6bc page__bd">
+      <view class="_div data-v-2838c6bc weui-tabbar">
+        <view class="_div data-v-2838c6bc weui-tabbar__item weui-bar__item_on">
+          <view style="position: relative;display:inline-block;" class="_div data-v-2838c6bc">
+            <image src="/static/images/pic_160.png" class="_img data-v-2838c6bc weui-tabbar__icon"></image>
+          </view>
+          <view class="_div data-v-2838c6bc weui-tabbar__label">标题</view>
+        </view>
+        <view class="_div data-v-2838c6bc weui-tabbar__item">
+          <view style="position: relative;display:inline-block;" class="_div data-v-2838c6bc">
+            <image src="/static/images/pic_160.png" class="_img data-v-2838c6bc weui-tabbar__icon"></image>
+            <view class="_div data-v-2838c6bc weui-badge weui-badge_dot" style="position:absolute;top:-2px;left:calc(100% - 3px);"></view>
+          </view>
+          <view class="_div data-v-2838c6bc weui-tabbar__label">标题</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

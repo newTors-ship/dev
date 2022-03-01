@@ -1,0 +1,63 @@
+<template name="2f4ee3cb">
+  <view class="_view data-v-54ddcb42 page">
+    <view class="_view data-v-54ddcb42 page__hd">
+      <view class="_view data-v-54ddcb42 page__title">slideview</view>
+      <view class="_view data-v-54ddcb42 page__desc">左滑操作</view>
+    </view>
+    <view class="_view data-v-54ddcb42 page__bd">
+      <view class="_view data-v-54ddcb42 weui-cells__title">右滑 文字按钮</view>
+      <view class="_view data-v-54ddcb42 weui-cells weui-cells_after-title">
+        <view class="_view data-v-54ddcb42 weui-slideview">
+          <view class="_view data-v-54ddcb42 weui-slideview__left" style="transform:translateX(-207px);">
+            <view class="_view data-v-54ddcb42 weui-cell">
+              <view class="_view data-v-54ddcb42 weui-cell__bd">标题文字</view>
+              <view class="_view data-v-54ddcb42 weui-cell__ft">说明文字</view>
+            </view>
+          </view>
+          <view class="_view data-v-54ddcb42 weui-slideview__right" style="width:207px;line-height:56px;">
+            <view class="_view data-v-54ddcb42 weui-slideview__buttons">
+              <view class="_view data-v-54ddcb42 weui-slideview__btn__wrp weui-slideview__btn-group_default" style="transform:translateX(-207px);">
+                <view class="_view data-v-54ddcb42 weui-slideview__btn">普通</view>
+              </view>
+              <view class="_view data-v-54ddcb42 weui-slideview__btn__wrp weui-slideview__btn-group_default" style="transform:translateX(-138px);">
+                <view class="_view data-v-54ddcb42 weui-slideview__btn">普通</view>
+              </view>
+              <view class="_view data-v-54ddcb42 weui-slideview__btn__wrp weui-slideview__btn-group_warn" style="transform:translateX(-69px);">
+                <view class="_view data-v-54ddcb42 weui-slideview__btn">警示</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-54ddcb42 weui-cells__title">右滑 图标按钮</view>
+      <view class="_view data-v-54ddcb42 weui-slidecells">
+        <view class="_view data-v-54ddcb42 weui-slideview weui-slideview_icon">
+          <view class="_view data-v-54ddcb42 weui-slideview__left" style="transform:translateX(-231px);">
+            <view class="_view data-v-54ddcb42 weui-slidecell">
+              <view class="_view data-v-54ddcb42 weui-slidecell__tips">提示文字</view>
+            </view>
+          </view>
+          <view class="_view data-v-54ddcb42 weui-slideview__right" style="width:231px;line-height:71px;">
+            <view class="_view data-v-54ddcb42 weui-slideview__buttons">
+              <view class="_view data-v-54ddcb42 weui-slideview__btn__wrp" style="transform:translateX(-231px);">
+                <view class="_view data-v-54ddcb42 weui-slideview__btn">
+                  <image class="_img data-v-54ddcb42 weui-slideview__btn__icon" src="/static/images/icon_love.svg"></image>
+                </view>
+              </view>
+              <view class="_view data-v-54ddcb42 weui-slideview__btn__wrp" style="transform:translateX(-146px);">
+                <view class="_view data-v-54ddcb42 weui-slideview__btn">
+                  <image class="_img data-v-54ddcb42 weui-slideview__btn__icon" src="/static/images/icon_star.svg"></image>
+                </view>
+              </view>
+              <view class="_view data-v-54ddcb42 weui-slideview__btn__wrp" style="transform:translateX(-77px);">
+                <view class="_view data-v-54ddcb42 weui-slideview__btn">
+                  <image class="_img data-v-54ddcb42 weui-slideview__btn__icon" src="/static/images/icon_del.svg"></image>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

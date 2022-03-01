@@ -1,0 +1,20 @@
+<template name="89434cb8">
+  <view class="_div data-v-5f15538a page">
+    <view class="_div data-v-5f15538a page__hd">
+      <view class="_div data-v-5f15538a page__title">Gallery</view>
+      <view class="_div data-v-5f15538a page__desc">画廊，建议采用小程序原生的 wx.chooseImage 和 wx.predivImage 来实现，详情请看小程序文档。</view>
+    </view>
+    <view class="_div data-v-5f15538a page__bd">
+      <view class="_div data-v-5f15538a weui-btn-area"><button class="_button data-v-5f15538a weui-btn" type="default" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">Gallery</button></view>
+      <view bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_div data-v-5f15538a {{[istrue ? 'weui-gallery_show' : '', 'weui-gallery']}}">
+        <view class="_div data-v-5f15538a weui-gallery__info">1/17</view>
+        <view class="_div data-v-5f15538a weui-gallery__img__wrp">
+          <image mode="aspectFit" class="_img data-v-5f15538a weui-gallery__img" src="/static/images/pic_160.png"></image>
+        </view>
+        <view class="_div data-v-5f15538a weui-gallery__opr">
+          <navigator url="javascript:" class="_navigator data-v-5f15538a weui-gallery__del">删除</navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

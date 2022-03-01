@@ -1,0 +1,16 @@
+
+page.data-v-f7bd5824,
+.page.data-v-f7bd5824,
+.page__bd.data-v-f7bd5824 {
+  height: 100%;
+}
+.page__bd.data-v-f7bd5824 {
+  padding-bottom: 0;
+}
+.weui-navbar__title.data-v-f7bd5824 {
+  display: block;
+}
+.weui-tab__content.data-v-f7bd5824 {
+  padding-top: 60px;
+  text-align: center;
+}

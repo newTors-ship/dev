@@ -1,0 +1,19 @@
+<template name="eab8652a">
+  <view class="_div data-v-4bf19f7f page">
+    <view class="_div data-v-4bf19f7f page__hd">
+      <view class="_div data-v-4bf19f7f page__title">Slider</view>
+      <view class="_div data-v-4bf19f7f page__desc">滑块，这里采用小程序原生的slider。</view>
+    </view>
+    <view class="_div data-v-4bf19f7f page__bd page__bd_spacing">
+      <slider bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_slider data-v-4bf19f7f" />
+      <slider show-value value="50" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_slider data-v-4bf19f7f" />
+      <view class="_div data-v-4bf19f7f weui-cells__title issues-content">动态修滑块最大值与最小值(默认区间为[100,500])：</view>
+      <slider show-value value="{{sliderValue}}" min="{{sliderMin}}" max="{{sliderMax}}" bindchange="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_slider data-v-4bf19f7f" />
+      <view class="_div data-v-4bf19f7f weui-cells__title">滑动修改滑块最小值(100-200)：</view>
+      <slider show-value value="{{udpateSliderMinValue}}" min="100" max="200" bindchange="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_slider data-v-4bf19f7f" />
+      <view class="_div data-v-4bf19f7f weui-cells__title">滑动修改滑块最大值(900-1000)：</view>
+      <slider show-value value="{{updateSliderMaxValue}}" min="900" max="1000" bindchange="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}" class="_slider data-v-4bf19f7f" />
+      <view class="_div data-v-4bf19f7f slider-value-text">{{sliderValueText}}</view>
+    </view>
+  </view>
+</template>

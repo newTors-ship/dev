@@ -1,0 +1,28 @@
+<template name="dc6785dc">
+  <view class="_div data-v-531a0f26 page">
+    <view class="_div data-v-531a0f26 page__hd">
+      <view class="_div data-v-531a0f26 page__title">Dialog</view>
+      <view class="_div data-v-531a0f26 page__desc">对话框，采用小程序原生的modal</view>
+    </view>
+    <view class="_div data-v-531a0f26 page__bd">
+      <view class="_div data-v-531a0f26 weui-btn-area"><button class="_button data-v-531a0f26 weui-btn" type="default" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">原生 Dialog</button> <button class="_button data-v-531a0f26 weui-btn" type="default" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">模拟 Dialog</button></view>
+      <view class="_div data-v-531a0f26 {{['weui-demo-dialog', istrue ? 'weui-demo-dialog_show' : '']}}">
+        <view class="_div data-v-531a0f26 weui-mask" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}"></view>
+        <view class="_div data-v-531a0f26 weui-dialog__wrp" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">
+          <view class="_div data-v-531a0f26 weui-dialog" catchtouchmove>
+            <view class="_div data-v-531a0f26 weui-dialog__hd">
+              <view class="_div data-v-531a0f26 weui-dialog__title">标题</view>
+            </view>
+            <view class="_div data-v-531a0f26 weui-dialog__bd">
+              <image class="_image data-v-531a0f26 weui-article__img" src="/static/images/pic_article.png" mode="aspectFill" style="max-width:100%;"></image>
+            </view>
+            <view class="_div data-v-531a0f26 weui-dialog__ft">
+              <view class="_div data-v-531a0f26 weui-dialog__btn weui-dialog__btn_default" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">取消</view>
+              <view class="_div data-v-531a0f26 weui-dialog__btn" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">确定</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,13 @@
+
+page.data-v-f03c3b66 {
+  background-color: #ffffff;
+}
+.weui-demo-dialog.data-v-f03c3b66 {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.weui-demo-dialog_show.data-v-f03c3b66 {
+  visibility: visible;
+  opacity: 1;
+}

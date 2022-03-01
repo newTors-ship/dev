@@ -1,0 +1,17 @@
+<template name="12be68d8">
+  <view class="_div data-v-57e78a28 page">
+    <view class="_div data-v-57e78a28 page__hd">
+      <view class="_div data-v-57e78a28 page__title">Picker</view>
+      <view class="_div data-v-57e78a28 page__desc">选择器，这里使用小程序原生的picker。</view>
+    </view>
+    <view class="_div data-v-57e78a28 page__bd">
+      <view class="_div data-v-57e78a28 weui-btn-area">
+        <picker class="_picker data-v-57e78a28 weui-btn" bindchange="handleProxy" value="{{index}}" range="{{array}}" data-eventid="{{'0'}}" data-comkey="{{$k}}"><button type="default" class="_button data-v-57e78a28">单列选择器</button></picker>
+        <picker class="_picker data-v-57e78a28 weui-btn" mode="multiSelector" bindchange="handleProxy" value="{{indexMulPicker}}" range="{{multiArray}}" bindcolumnchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"><button type="default" class="_button data-v-57e78a28">多列选择器</button></picker>
+        <picker class="_picker data-v-57e78a28 weui-btn" mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}"><button type="default" class="_button data-v-57e78a28">时间选择器</button></picker>
+        <picker class="_picker data-v-57e78a28 weui-btn" mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}"><button type="default" class="_button data-v-57e78a28">日期选择器</button></picker>
+        <picker class="_picker data-v-57e78a28 weui-btn" mode="region" value="{{region}}" bindchange="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}"><button type="default" class="_button data-v-57e78a28">城市选择器</button></picker> <button type="default" class="_button data-v-57e78a28 weui-btn" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">多级联动</button>
+      </view>
+    </view>
+  </view>
+</template>

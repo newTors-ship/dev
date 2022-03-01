@@ -1,0 +1,7 @@
+<template name="1083f1c8">
+  <view class="_div data-v-1a21627c page">
+    <view class="_div data-v-1a21627c page__bd page__bd_spacing">
+      <view class="_div data-v-1a21627c mpvueInfo-desc">{{mpvueInfo}}</view> <button type="primary" class="_button data-v-1a21627c mt-15" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">再次更新 state => mpvueInfo</button>
+    </view>
+  </view>
+</template>

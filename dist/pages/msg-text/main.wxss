@@ -1,0 +1,8 @@
+
+page.data-v-02556852 {
+  background-color: #ffffff;
+}
+page.data-v-02556852,
+.page.data-v-02556852 {
+  height: 100%;
+}

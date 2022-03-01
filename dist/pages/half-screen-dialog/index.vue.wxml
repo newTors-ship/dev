@@ -1,0 +1,30 @@
+<template name="7fe9a2b9">
+  <view class="_div data-v-f03c3b66 page">
+    <view class="_div data-v-f03c3b66 page__hd">
+      <view class="_div data-v-f03c3b66 page__title">Half Screen Dialog</view>
+      <view class="_div data-v-f03c3b66 page__desc">半屏弹窗，辅助完成当前页面任务时；提醒用户并引导用户的下一步操作；用户主动发起的任务时。</view>
+    </view>
+    <view class="_div data-v-f03c3b66 page__bd">
+      <view class="_div data-v-f03c3b66 weui-btn-area"><button class="_button data-v-f03c3b66 weui-btn" type="default" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">Half Screen Dialog</button></view>
+      <view class="_div data-v-f03c3b66 {{['weui-demo-dialog', istrue ? 'weui-demo-dialog_show' : '']}}">
+        <view class="_div data-v-f03c3b66 weui-mask" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"></view>
+        <view class="_div data-v-f03c3b66 weui-half-screen-dialog" catchtouchmove>
+          <view class="_div data-v-f03c3b66 weui-half-screen-dialog__hd">
+            <view class="_div data-v-f03c3b66 weui-half-screen-dialog__hd__side">
+              <view bindtap="handleProxy" class="_div data-v-f03c3b66 weui-icon-btn weui-icon-btn_close" data-eventid="{{'2'}}" data-comkey="{{$k}}">关闭</view>
+            </view>
+            <view class="_div data-v-f03c3b66 weui-half-screen-dialog__hd__main"><text class="_text data-v-f03c3b66 weui-half-screen-dialog__title">标题</text> <text class="_text data-v-f03c3b66 weui-half-screen-dialog__subtitle">标题</text></view>
+            <view class="_div data-v-f03c3b66 weui-half-screen-dialog__hd__side">
+              <view class="_div data-v-f03c3b66 weui-icon-btn weui-icon-btn_more">更多</view>
+            </view>
+          </view>
+          <view class="_div data-v-f03c3b66 weui-half-screen-dialog__bd">
+            <view class="_div data-v-f03c3b66 weui-half-screen-dialog__desc">辅助描述内容，可根据实际需要安排</view>
+            <view class="_div data-v-f03c3b66 weui-half-screen-dialog__tips">辅助提示内容，可根据实际需要安排</view>
+          </view>
+          <view class="_div data-v-f03c3b66 weui-half-screen-dialog__ft"><button type="default" class="_button data-v-f03c3b66 weui-btn">辅助操作</button> <button type="primary" class="_button data-v-f03c3b66 weui-btn">主操作</button></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

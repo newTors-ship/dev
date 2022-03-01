@@ -1,0 +1,11 @@
+
+.mpvueInfo-desc {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+  text-align: justify;
+  word-break: break-all;
+}
+.mt-15 {
+  margin-top: 15px;
+}
